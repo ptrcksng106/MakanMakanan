@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A9FCBA8BDCED92F624520AE /* Pods_MakanMakanan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A952925EE263C11E70007E /* Pods_MakanMakanan.framework */; };
+		F751C1ED289666C20049B1FB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F751C1EC289666C20049B1FB /* DetailViewController.swift */; };
+		F751C1EF289674020049B1FB /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F751C1EE289674020049B1FB /* SplashScreenViewController.swift */; };
+		F751C1F3289675EF0049B1FB /* foodies.json in Resources */ = {isa = PBXBuildFile; fileRef = F751C1F2289675EF0049B1FB /* foodies.json */; };
+		F79522052893AAFB008E26F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79522042893AAFB008E26F8 /* AppDelegate.swift */; };
+		F79522072893AAFB008E26F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79522062893AAFB008E26F8 /* SceneDelegate.swift */; };
+		F79522092893AAFB008E26F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79522082893AAFB008E26F8 /* ViewController.swift */; };
+		F795220C2893AAFB008E26F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F795220A2893AAFB008E26F8 /* Main.storyboard */; };
+		F795220E2893AAFD008E26F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F795220D2893AAFD008E26F8 /* Assets.xcassets */; };
+		F79522112893AAFD008E26F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F795220F2893AAFD008E26F8 /* LaunchScreen.storyboard */; };
+		F795221A2893AB28008E26F8 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79522192893AB28008E26F8 /* Food.swift */; };
+		F795221C2893AC42008E26F8 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795221B2893AC42008E26F8 /* NetworkHelper.swift */; };
+		F795221F28941FE0008E26F8 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795221D28941FE0008E26F8 /* FoodTableViewCell.swift */; };
+		F795222028941FE0008E26F8 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F795221E28941FE0008E26F8 /* FoodTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07A952925EE263C11E70007E /* Pods_MakanMakanan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakanMakanan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5A70515E15A72A810AC7DA /* Pods-MakanMakanan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakanMakanan.debug.xcconfig"; path = "Target Support Files/Pods-MakanMakanan/Pods-MakanMakanan.debug.xcconfig"; sourceTree = "<group>"; };
+		A4FB734EBF1AB2029C907E6E /* Pods-MakanMakanan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakanMakanan.release.xcconfig"; path = "Target Support Files/Pods-MakanMakanan/Pods-MakanMakanan.release.xcconfig"; sourceTree = "<group>"; };
+		F751C1EC289666C20049B1FB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F751C1EE289674020049B1FB /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		F751C1F2289675EF0049B1FB /* foodies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = foodies.json; sourceTree = "<group>"; };
+		F79522012893AAFB008E26F8 /* MakanMakanan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakanMakanan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79522042893AAFB008E26F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F79522062893AAFB008E26F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F79522082893AAFB008E26F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F795220B2893AAFB008E26F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F795220D2893AAFD008E26F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F79522102893AAFD008E26F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F79522122893AAFD008E26F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F79522192893AB28008E26F8 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		F795221B2893AC42008E26F8 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		F795221D28941FE0008E26F8 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		F795221E28941FE0008E26F8 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F79521FE2893AAFB008E26F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9FCBA8BDCED92F624520AE /* Pods_MakanMakanan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073F3CB0400243DD337C4772 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A5A70515E15A72A810AC7DA /* Pods-MakanMakanan.debug.xcconfig */,
+				A4FB734EBF1AB2029C907E6E /* Pods-MakanMakanan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE4C711029FC8B960D8C5AEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07A952925EE263C11E70007E /* Pods_MakanMakanan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F79521F82893AAFB008E26F8 = {
+			isa = PBXGroup;
+			children = (
+				F79522032893AAFB008E26F8 /* MakanMakanan */,
+				F79522022893AAFB008E26F8 /* Products */,
+				073F3CB0400243DD337C4772 /* Pods */,
+				BE4C711029FC8B960D8C5AEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F79522022893AAFB008E26F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F79522012893AAFB008E26F8 /* MakanMakanan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F79522032893AAFB008E26F8 /* MakanMakanan */ = {
+			isa = PBXGroup;
+			children = (
+				F751C1F2289675EF0049B1FB /* foodies.json */,
+				F79522182893AB13008E26F8 /* Model */,
+				F79522042893AAFB008E26F8 /* AppDelegate.swift */,
+				F79522062893AAFB008E26F8 /* SceneDelegate.swift */,
+				F79522082893AAFB008E26F8 /* ViewController.swift */,
+				F795220A2893AAFB008E26F8 /* Main.storyboard */,
+				F795220D2893AAFD008E26F8 /* Assets.xcassets */,
+				F795220F2893AAFD008E26F8 /* LaunchScreen.storyboard */,
+				F79522122893AAFD008E26F8 /* Info.plist */,
+				F795221B2893AC42008E26F8 /* NetworkHelper.swift */,
+				F795221D28941FE0008E26F8 /* FoodTableViewCell.swift */,
+				F795221E28941FE0008E26F8 /* FoodTableViewCell.xib */,
+				F751C1EC289666C20049B1FB /* DetailViewController.swift */,
+				F751C1EE289674020049B1FB /* SplashScreenViewController.swift */,
+			);
+			path = MakanMakanan;
+			sourceTree = "<group>";
+		};
+		F79522182893AB13008E26F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F79522192893AB28008E26F8 /* Food.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F79522002893AAFB008E26F8 /* MakanMakanan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F79522152893AAFD008E26F8 /* Build configuration list for PBXNativeTarget "MakanMakanan" */;
+			buildPhases = (
+				368B279A68371D8B2EE4E067 /* [CP] Check Pods Manifest.lock */,
+				F79521FD2893AAFB008E26F8 /* Sources */,
+				F79521FE2893AAFB008E26F8 /* Frameworks */,
+				F79521FF2893AAFB008E26F8 /* Resources */,
+				611A52201E8201200497D7AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakanMakanan;
+			productName = MakanMakanan;
+			productReference = F79522012893AAFB008E26F8 /* MakanMakanan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F79521F92893AAFB008E26F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F79522002893AAFB008E26F8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F79521FC2893AAFB008E26F8 /* Build configuration list for PBXProject "MakanMakanan" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F79521F82893AAFB008E26F8;
+			productRefGroup = F79522022893AAFB008E26F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F79522002893AAFB008E26F8 /* MakanMakanan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F79521FF2893AAFB008E26F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79522112893AAFD008E26F8 /* LaunchScreen.storyboard in Resources */,
+				F795222028941FE0008E26F8 /* FoodTableViewCell.xib in Resources */,
+				F795220E2893AAFD008E26F8 /* Assets.xcassets in Resources */,
+				F795220C2893AAFB008E26F8 /* Main.storyboard in Resources */,
+				F751C1F3289675EF0049B1FB /* foodies.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		368B279A68371D8B2EE4E067 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakanMakanan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		611A52201E8201200497D7AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MakanMakanan/Pods-MakanMakanan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MakanMakanan/Pods-MakanMakanan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MakanMakanan/Pods-MakanMakanan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F79521FD2893AAFB008E26F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79522092893AAFB008E26F8 /* ViewController.swift in Sources */,
+				F795221A2893AB28008E26F8 /* Food.swift in Sources */,
+				F751C1EF289674020049B1FB /* SplashScreenViewController.swift in Sources */,
+				F795221C2893AC42008E26F8 /* NetworkHelper.swift in Sources */,
+				F79522052893AAFB008E26F8 /* AppDelegate.swift in Sources */,
+				F79522072893AAFB008E26F8 /* SceneDelegate.swift in Sources */,
+				F795221F28941FE0008E26F8 /* FoodTableViewCell.swift in Sources */,
+				F751C1ED289666C20049B1FB /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F795220A2893AAFB008E26F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F795220B2893AAFB008E26F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F795220F2893AAFD008E26F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F79522102893AAFD008E26F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F79522132893AAFD008E26F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F79522142893AAFD008E26F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F79522162893AAFD008E26F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5A70515E15A72A810AC7DA /* Pods-MakanMakanan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MakanMakanan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrick.learning.MakanMakanan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F79522172893AAFD008E26F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4FB734EBF1AB2029C907E6E /* Pods-MakanMakanan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MakanMakanan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrick.learning.MakanMakanan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F79521FC2893AAFB008E26F8 /* Build configuration list for PBXProject "MakanMakanan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79522132893AAFD008E26F8 /* Debug */,
+				F79522142893AAFD008E26F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F79522152893AAFD008E26F8 /* Build configuration list for PBXNativeTarget "MakanMakanan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79522162893AAFD008E26F8 /* Debug */,
+				F79522172893AAFD008E26F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F79521F92893AAFB008E26F8 /* Project object */;
+}
